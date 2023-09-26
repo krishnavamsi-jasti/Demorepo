@@ -1,0 +1,60 @@
+.shipping-address-container {
+    max-width: 550px;
+    min-width: 300px;
+    background-color: white;
+    margin: 5px;
+}
+
+.shipping-padding {
+    padding-top: 10px;
+    // padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.shipping-input-containers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    // margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+    width: 85%;
+}
+
+.shipping-address-title {
+    margin: 20px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.delivery-details-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.shipping-separator {
+    border-left: 1px solid rgb(227, 227, 227);
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.advanced-buttons-row {
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shipping-parent {
+    background: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}

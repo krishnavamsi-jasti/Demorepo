@@ -1,0 +1,50 @@
+.login-page-main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-basis: 100%;
+}
+
+.left-content {
+    width: 60%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #086DD3 13.85%, #02188A 84.79%, #021B79 100%);
+}
+
+.right-content {
+    width: 40%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+.atlantis-eclipse {
+    position: fixed;
+    bottom: -15px;
+    left: 0;
+}
+
+.login-form-content {
+    .hello-text {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .login-input-control {
+        height: 60px;
+        border-radius: 30px;
+        width: 300px;
+        border: 1px solid rgba(238, 238, 238, 1);
+        padding: 18px 26px 18px 26px;
+        margin-bottom: 20px;
+    }
+
+    .login-btn {
+        background-color: rgba(5, 117, 230, 1);
+        width: 300px;
+        padding: 18px 26px 18px 26px;
+        border-radius: 50px;
+        color: white;
+    }
+}
